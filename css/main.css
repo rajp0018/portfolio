@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #900000;
+}
+
+header {
+  background-color: #F3DBAA;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #F3DBAA;
+  color: #333;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#main-content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.Welcome {
+  background-color: #F3DBAA;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 340px;
+}
+.contact {
+  background-color: #F3DBAA;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 340px;
+
+}
+
+.Image {
+  display: grid;
+  padding: 10%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.Image div {
+  text-align: center;
+}
+
+.img-fluid {
+  width: 200px; 
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.Samples {
+  
+  background-color: #F3DBAA;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Samples:hover {
+  background-color: #333;
+  color: #F3DBAA;
+}
+
+.Cost, .price {
+  margin-top: 5px;
+}
+
+.home-footer {
+  background-color: #F3DBAA;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+.map {
+  width: auto;
+  height: fit-content;
+  margin: 20px 0;
+}
+.img-fluid {
+  max-width: 3000px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+}
+.type {
+  background-color: #F3DBAA;
+  border-radius: 5px;
+  font-size: xx-large;
+}
+.home-menu {
+  color: #900000;
+  border-radius: 20%;
+  border-color: black;
+}
+
